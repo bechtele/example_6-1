@@ -83,7 +83,7 @@ static void displayCodeWrite( bool type, uint8_t dataBus );
 
 //=====[Implementations of public functions]===================================
 
-void displayInit()
+void displayInit() //initialize to 8 bit display
 {
     delay( 50 );
     
